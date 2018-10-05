@@ -5,7 +5,7 @@
 #include <stack>
 using namespace std;
 
-template <class T>
+template <class T> // Muy bien!
 class InOrderIterator : public Iterator<T> {
 private:
   stack<Node<T>*> pila;

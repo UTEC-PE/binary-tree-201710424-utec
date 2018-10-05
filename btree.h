@@ -165,7 +165,7 @@ public:
 
   ~Btree(){
     if (root) {
-      this->root->killself();
+      this->root->killself(); 
     }
   };
 };
